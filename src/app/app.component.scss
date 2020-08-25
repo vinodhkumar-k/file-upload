@@ -1,0 +1,97 @@
+.app-suite-toolbar {
+  background: #004f83;
+  color: white;
+  max-height: 45px;
+}
+
+.lam-logo {
+  height: 25px;
+  padding-right: 12px;
+  padding-top: 6px;
+  padding-left: 5px;
+}
+
+main {
+  min-height: calc(100vh - 90px);
+}
+
+footer {
+  bottom: 0;
+  min-width: 100%;
+  color: white;
+  background-color: #343a40;
+  height: 45px;
+  font-size: 12px;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+// Drop section css
+.drag-drop-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 875px;
+  // margin-top: 35px;
+  // height: calc(99vh - 35px);
+  // min-height: calc(580px - 35px);
+  // height: calc(95vh - 35px);
+  min-height: calc(520px - 25px);
+  padding: 0 150px;
+  width: calc(100% - 300px);
+}
+
+.dropzone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  width: 100%;
+  height: 100%;
+  min-width: 875px;
+  border: 1px solid #c8c8c8;
+  border-radius: 6px;
+  background-color: #80bfd6;
+}
+
+.upload-button {
+  text-transform: uppercase;
+  border-radius: 3px !important;
+  color: white;
+  background: #004f83;
+}
+
+// snackbar css
+.success-snackbar {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.error-snackbar {
+  background-color: #b71532;
+  color: white;
+}
+
+.warn-snackbar {
+  background-color: orange;
+  color: white;
+}
+
+.snackbar {
+  max-width: 90% !important;
+  margin-left: auto !important; // center align from left
+  margin-right: auto !important; // center align from right
+  margin-bottom: 1rem !important; 
+  padding: 10px !important; // spacing between the text and boundary
+  background-color: #0b8357;
+  color: #f7f0cf;
+
+  .mat-button-wrapper {
+      color: black !important; // action text color
+  }
+}
