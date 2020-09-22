@@ -15,7 +15,7 @@ export class AppComponent {
 
   //file upload event  
   fileChange(event) {
-    let fileList: FileList = event.target.files;
+    // let fileList: FileList = event.target.files;
     let fileList: FileList = event;
     if (fileList.length > 0) {
       let file: File = fileList[0];
