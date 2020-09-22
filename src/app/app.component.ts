@@ -24,7 +24,6 @@ export class AppComponent {
       const uploadUrl = 'http://10.251.49.12:9000/api/excel/uploadexcel';
       this.http.post(uploadUrl, formData).subscribe((res) => {
         console.log('File Uploaded Successfully');
-        // this.showSnackBar('File Uploaded Successfully', 'success-snackbar');
       },
       (err) => {
         // console.log(err);
